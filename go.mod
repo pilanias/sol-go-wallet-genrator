@@ -1,13 +1,19 @@
-module SolanaWalletGenerator
+module github.com/pilanias/go_wallet_genrater
 
-go 1.17
+go 1.21
+
+toolchain go1.22.2
 
 require (
-	filippo.io/edwards25519 v1.0.0-rc.1 // indirect
-	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/mr-tron/base58 v1.2.0 // indirect
-	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/portto/solana-go-sdk v1.13.0 // indirect
-	github.com/stretchr/testify v1.7.0 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c // indirect
+	github.com/btcsuite/btcutil v1.0.2
+	github.com/schollz/progressbar/v3 v3.14.4
+	github.com/tyler-smith/go-bip39 v1.1.0
+	golang.org/x/crypto v0.24.0
+)
+
+require (
+	github.com/mitchellh/colorstring v0.0.0-20190213212951-d06e56a500db // indirect
+	github.com/rivo/uniseg v0.4.7 // indirect
+	golang.org/x/sys v0.21.0 // indirect
+	golang.org/x/term v0.21.0 // indirect
 )
